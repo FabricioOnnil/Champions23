@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
     <link rel="shortcut icon" href="Imagens/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Estilos/style.css">
 </head>
 <body>
-    
+    <form action="login.php" method="post" autocomplete="on">
+        <fieldset>
+            <!-- <legend>LOGIN</legend> -->
+            <p>
+                <label for="iname">Nome: </label>
+                <input type="text" name="nome" id="iname" autocomplete="name" minlength="5" maxlength="20" required placeholder="Primeiro nome">
+            </p>
+            <p>
+                <label for="isenha">Senha: </label>
+                <input type="password" name="senha" id="isenha" autocomplete="current-password" required placeholder="Senha fornecida">
+            </p>
+           
+        </fieldset>
+        <p>
+            <input type="submit" value="ENTRAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+        
+    </form>
+    <sections class="tacaLogin">
+        <!-- <h1>LOGIN</h1> -->
+        <img src="Imagens/Taça/tacadesenho.png" alt="Taça da Champions">
+    </sections>
 </body>
 </html>

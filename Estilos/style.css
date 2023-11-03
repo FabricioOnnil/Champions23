@@ -37,3 +37,8 @@ img {
     max-width: 15%;
     max-height: 30%;
 }
+.tacaLogin {
+    max-width: 40%; 
+    margin-left: 0px;   
+    position: relative;
+}
