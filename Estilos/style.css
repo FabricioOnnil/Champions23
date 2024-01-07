@@ -6,6 +6,9 @@
 
 
 body {
+    background-image: url(../Imagens/background/Apple\ TV\ -\ UEFA\ Champions\ League.png);
+    background-position: center center;
+    background-repeat: no-repeat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -13,9 +16,7 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    background: var(--corbase);
 }
-
 
 h1 {
     color: black;
