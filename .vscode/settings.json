@@ -1,5 +1,4 @@
 {
-    "liveServer.settings.port": 5501,
     "sqltools.connections": [
         {
             "mysqlOptions": {
@@ -10,10 +9,10 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "libertadores24",
-            "database": "mysql",
+            "name": "liberta24",
+            "database": "libertadores24",
             "username": "root",
-            "password": ""
+            "askForPassword": true
         }
     ]
 }

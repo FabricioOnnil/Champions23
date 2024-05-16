@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.login {
+    flex-direction: row;
+    display: flexbox;
+    justify-content: space-around;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.imgFase {
+    width: 19%;
+    height: auto;
+
+}
+
+.inicio {
+    width: 10px;
+    height: 10px;
+    padding: 50px 50px 50px 50px;
+}
+
+.tacaLogin {
+    max-width: 40%;
+    margin-left: 0px;
+    position: relative;
+}
+
 :root {
     --corbase: linear-gradient(to bottom, black, blue, darkblue)
 }
@@ -24,33 +56,18 @@ h1 {
     margin: 20px;
 }
 
-.inicio {
-    width: 10px;
-    height: 10px;
-    padding: 50px 50px 50px 50px;
+iframe {
+    text-align: center;
 }
+
 
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.imgFase {
-    width: 19%;
-    height: auto;
-
-}
-
-.login {
-    flex-direction: row;
-    display: flexbox;
-    justify-content: space-around;
-    max-width: 50%;
-    max-height: 50%;
-}
-
-.tacaLogin {
-    max-width: 40%;
-    margin-left: 0px;
-    position: relative;
+section {
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
 }
