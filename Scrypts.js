@@ -2,15 +2,15 @@
 const readlineSync = require('readline-sync');
 
 // Times participantes
-//const times = ["Time1", "Time2", "Time3", "Time4", "Time5", "Time6", "Time7", "Time8", "Time9", "Time10", "Time11", "Time12", "Time13", "Time14", "Time15", "Time16"];
-const times = ["Copenhague", "Manchester City", "RB Leipzig", "Real Madrid", "PSG", "Real Sociedad", "Lazio", "Bayern", "PSV", "Borussia", "Internazionale", "Atlético Madrid", "Porto", "Arsenal", "Napoli", "Barcelona"];
+const times1 = ["Atlético-MG", "Fluminense", "River Plate", "Junior Barranquilla", "São Paulo", "Palmeiras", "The Strongest", "Bolívar"];
+const times2 = ["San Lorenzo", "Grêmio", "Talleres", "Colo-colo", "Nacional", "Botafogo", "Peñarol", "Flamengo"];
 
 // Função para realizar uma rodada da competição
 function realizarRodada(times) {
     const vencedores = [];
     for (let i = 0; i < times.length; i += 2) {
-        const time1 = times[i];
-        const time2 = times[i + 1];
+        const time1 = times1[i];
+        const time2 = times2[i + 1];
         const vencedor = capturarResultado(time1, time2); // Agora usa capturarResultado para obter o resultado
         vencedores.push(vencedor);
     }
