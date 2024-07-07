@@ -42,10 +42,15 @@ body {
     height: 100vh; /* Garantir que o body ocupe 100% da altura da viewport */
     margin: 0;
     padding: 0;
-    background-image: url(../Imagens/libertadores/conmebol-libertadores-foto-vejapixel.jpg);
+    background-image: url(../Imagens/libertadores/trofeu-a-gloria-libertadores-america-2020.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 75%;
 }
 
 h1 {
@@ -53,3 +58,4 @@ h1 {
     text-align: center;
     margin: 
 }
+
